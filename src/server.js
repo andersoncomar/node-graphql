@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const resolvers = require('./resolvers');
 
 mongoose.connect(
-  'mongodb+srv://developer:fkkcdzqwb8dgjIml@projetos-uiayt.mongodb.net/crud?retryWrites=true&w=majority',
+  'mongodb+srv://username:password@projetos-uiayt.mongodb.net/crud?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
